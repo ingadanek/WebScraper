@@ -1,7 +1,16 @@
 # Web Scraper
 
 Using Python and its packages to extract certain information from a website, e.g. product names.
-User provides url and xpath that can easily be copied in browser.
+
+## How to use
+Using one's preferred code editor (e.g. VSCode), user provides url as string and xpath as string followed by keyword 'python' and filename. Xpath can easily be copied in browser.
+
+e.g. `python projects/WebScraper/extract_data.py "https://leroymerlin.co.za/building-materials/construction-equipment/ladders" "//*[@id='maincontent']/div[4]/div[1]/div[9]/ol/li/div[2]/strong/a"`
+
+## How to test
+Using one's preferred code editor (e.g. VSCode), user provides filename followed by keyword 'pytest'.
+
+e.g. `pytest projects/WebScraper/test_extract_data.py'
 
 ## Code and Resources Used
 **Python Version:** `3.10.6`
@@ -10,7 +19,7 @@ User provides url and xpath that can easily be copied in browser.
 
 **url:** `"https://leroymerlin.co.za/building-materials/construction-equipment/ladders"`
 
-**Xpath:** `"//*[@id='maincontent']/div[4]/div[1]/div[9]/ol/li/div[2]/strong/a"`
+**xpath:** `"//*[@id='maincontent']/div[4]/div[1]/div[9]/ol/li/div[2]/strong/a"`
 
 
 
